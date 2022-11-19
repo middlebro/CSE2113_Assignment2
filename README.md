@@ -1,6 +1,21 @@
 # CSE2113 : Assignment 2
 
-# How to run
+## Directory Structure
+```bash
+❯ tree .
+.
+├── LICENSE   # MIT license
+├── README.md # README of this project
+├── dataset   # dataset for this project
+│   ├── default_credit_card.csv
+│   └── heart.csv
+├── solution.py # implementation of the template
+└── template.py # assignment template
+
+1 directory, 6 files
+```
+
+## How to run
 - run solution with default_credit_card data
 ```python
 $ python solution.py dataset/default_credit_card.csv 0.1
